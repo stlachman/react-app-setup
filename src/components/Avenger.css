@@ -1,0 +1,16 @@
+.list-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 15px;
+}
+
+.list-item  {
+  text-align: center;
+  background: #eee;
+}
+
+@media (min-width: 800px) {
+  .list-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
